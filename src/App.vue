@@ -1,4 +1,34 @@
 <template>
+    
+    <PostsPage />
+    <!-- <PostsForm /> -->
+    
+</template>
+
+<script>
+//import PostComponent from './components/PostComponent.vue';
+//import PostsForm from './components/PostsForm.vue';
+//import Home from './components/Home.vue';
+import PostsPage from './views/PostsPage.vue'
+export default {
+  name: 'app',
+  components: {
+    PostsPage
+    //PostsForm
+    
+    
+}
+}
+</script>
+
+
+
+
+
+
+
+
+<!-- <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
@@ -24,3 +54,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+ -->
